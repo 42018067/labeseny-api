@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'labesny.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopy2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'd9s0p9bal3595i',
         'USER': 'eztfhwlvlklleg',
         'PASSWORD': '0aa85a301d91675654c8dd2c3c9b6c552a55439a2e600b8520d9af5206feaf88',
