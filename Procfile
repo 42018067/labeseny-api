@@ -1,1 +1,1 @@
-web: gunicorn labesny.wsgi --log-file -
+web:gunicorn labesny.wsgi --log-file -
