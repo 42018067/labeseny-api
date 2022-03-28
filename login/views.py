@@ -8,6 +8,7 @@ from django.contrib.auth import login
 from knox.models import AuthToken
 from rest_framework.permissions import IsAuthenticated
 from django.contrib.auth.models import User
+from django.views.decorators.csrf import csrf_exempt
 
 
 # Register API
